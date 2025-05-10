@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+.container {
+    width: 368px;
+    margin: 10% auto;
+    border: 1px solid;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.image-box {
+    border-bottom: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.image-box img{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.info p {
+    margin: 0 21%;
+
+}
+
+.cost {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cost i {
+    width: 30px;
+    height: 30px;
+    margin-right: 2%;
+    padding-top: 5px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.cost a {
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+.plan span {
+    font-weight: bold;
+}
+
+.plan b {
+    font-weight: 100;
+    display: block;
+
+   
+}
+
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+
+.btn button {
+    width: 60%;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 2px;
+    margin-left: 20%;
+    border: black 1px solid;
+    cursor: pointer;
+
+
+
+}
+
+
+.btn button:hover{
+    color: blue;
+    background-color: gold;
+}
+.btn a {
+    margin-top: 2%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    color: gray;
+}
